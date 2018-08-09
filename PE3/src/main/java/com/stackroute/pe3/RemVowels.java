@@ -11,9 +11,7 @@ public class RemVowels {
 			s = st[i].replaceAll("a|A|e|E|i|I|o|O|u|U", "").trim()	;
 			st[i] = s;
 		}
-		/*for(int j=0;j<st.length;j++) {
-			s1 = st[j]+",";
-		}*/
+		
 		s1 = st[0]+","+st[1]+","+st[2]+","+st[3]+","+st[4];
 		
 		return s1;
